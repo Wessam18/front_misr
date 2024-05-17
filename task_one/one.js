@@ -80,9 +80,9 @@ document.getElementById('btn10').addEventListener("click", () => {
     var uploadSpeedBps = n2 * 1000000;
     var time = (fileSizeBits / uploadSpeedBps)
     document.getElementById('time').innerHTML='<h5>'+time+'</h5>'
-    console.log(uploadSpeedBps)
-    console.log(uploadSpeedBps)
-    console.log(time)
+    //console.log(uploadSpeedBps)
+    //console.log(uploadSpeedBps)
+    //console.log(time)
 })
 
 
