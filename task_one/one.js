@@ -64,8 +64,8 @@ document.getElementById('btn8').addEventListener("click", () => {
 document.getElementById('btn9').addEventListener("click", () => {
     var n1 = Number(document.getElementById("no1").value)
     var n2 = Number(document.getElementById("no2").value)
-    var time = (n1 / n2)
-    document.getElementById('time').innerHTML='<h5>'+time+'</h5>'
+    var uploadtime = (n1 / n2)
+    document.getElementById('uploadtime').innerHTML='<h5>'+uploadtime+'</h5>'
 })
 
 
@@ -78,7 +78,7 @@ document.getElementById('btn10').addEventListener("click", () => {
     var fileSizeBits = n1 * 1024 * 1024 * 1024 * 8;
     // Convert upload speed from Mbps to bits per second
     var uploadSpeedBps = n2 * 1000000;
-    var time = (Number(fileSizeBits) / Number(uploadSpeedBps))
+    var time = (fileSizeBits / uploadSpeedBps)
     document.getElementById('time').innerHTML='<h5>'+time+'</h5>'
     console.log(uploadSpeedBps)
     console.log(uploadSpeedBps)
