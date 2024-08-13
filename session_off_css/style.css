@@ -1,0 +1,28 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.one {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(165, 165, 198);
+    padding: 20px;
+}
+
+#filter, #x {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+
+}
+.card{
+
+
+background-color: aqua;
+width: fit-content;
+padding: 5px;
+border-radius: 5px;
+
+}

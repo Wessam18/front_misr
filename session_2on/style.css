@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: larger;
+}
+#container {
+    padding: 30px;
+    justify-content: space-evenly;
+}
+div a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.a {
+    height: 500px;
+    background-color: aqua;
+    padding-top: 20px;
+}
+.b {
+    height: 500px;
+    background-color: blue;
+    padding-top: 20px;
+
+}
+.c {
+    height: 500px;
+    background-color: blueviolet;
+    padding-top: 20px;
+}

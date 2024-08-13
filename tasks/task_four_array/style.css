@@ -1,0 +1,11 @@
+
+.one {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(105, 105, 135);
+    align-items: center;
+    padding: 20px;
+    border-color: black;
+}

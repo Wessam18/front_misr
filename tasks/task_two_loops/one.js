@@ -132,3 +132,27 @@ document.getElementById('btn9').addEventListener("click", function () {
         document.getElementById('loop9').innerHTML = '<h5>Congratulations, you are a good player. the correct number is ' +gussedNumber+ '.</h5>';
     }
 });
+
+
+document.getElementById('btn10').addEventListener("click", function () {
+    var arr = [];
+    var count = 0;
+    var n1 = [parseInt(document.getElementById("no13").value, 10)];
+    while (count <= 10){
+        n1 = parseInt(prompt("enter a number:"), 10);
+        if (n1 % 2 === 0) {
+            arr.push(n1)
+            document.getElementById('loop10').innerHTML = '<h5> ' +arr+ '.</h5>';
+        }
+        count++;
+    }
+});
+
+
+
+
+var x = [1,3,7,8,12,1,3,5,7,8,7,7,7,7,0,0,0,0];
+
+let uniqueArray = x.filter((item, index) => x.indexOf(item) === index);
+
+console.log(uniqueArray);

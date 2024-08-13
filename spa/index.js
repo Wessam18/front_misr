@@ -6,7 +6,7 @@ let menuItems = []; // Use this variable to store fetched menu items
 
 
 const menu=function(){
-    fetch('http://localhost:8000/pdts').
+    fetch('http://localhost:3000/pdts').
     then((res)=> res.json())
     .then((pdts)=>{
         menuItems = pdts; // Store fetched menu items

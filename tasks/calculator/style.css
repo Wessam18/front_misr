@@ -1,0 +1,31 @@
+.div1, .div2, .div3, .div4 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px;
+    border-color: black;
+    height: 150px;
+}
+.div2, .div4 {
+    background-color: rgb(85, 67, 150);
+    display: flex;
+    text-align: center;
+
+}
+#no1, #no2, #o, #oo {
+    position: relative;
+    top: 50px;
+}
+.div3 {
+    width: 500px;
+    height: 85px;
+    background-color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+.div1 {
+    height: 200px;
+}

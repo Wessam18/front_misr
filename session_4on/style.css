@@ -1,0 +1,8 @@
+.x {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    padding: 20px;
+    border-color: black;
+}
